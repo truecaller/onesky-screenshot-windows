@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="OneSkyApp.Screenshot.SampleCommon.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OneSkyApp.Screenshot.SampleCommon">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <local:StringResources x:Key="Strings" />
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot>
+            <PivotItem Header="{Binding Keys.PivotItem1, Source={StaticResource Strings}}">
+                <TextBlock x:Uid="UidTextBlock" />
+            </PivotItem>
+            <PivotItem Header="{Binding Keys.PivotItem2, Source={StaticResource Strings}}">
+                <TextBlock x:Name="textBlock" />
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
