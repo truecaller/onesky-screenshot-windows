@@ -40,10 +40,13 @@ await OneSkyScreenshotHelper.StartCapturingAsync(ONESKY_API_KEY, ONESKY_API_SECR
 ```ONESKY_API_KEY```, ```ONESKY_API_SECRET``` can be found in **Site Settings** under **API Keys & Usage** on **OneSky Web Admin**.
 ```ONESKY_PROJECT_ID``` can be found under **All Projects** page.
 
-Screenshots
------------
+UWP App Screenshot
+------------------
 
 ![Sample UWP App](https://github.com/truecaller/onesky-screenshot-windows/raw/master/Screenshots/sampleapp.png)
+
+OneSky Screenshots
+-------------------
 
 ![Sample UWP App](https://github.com/truecaller/onesky-screenshot-windows/raw/master/Screenshots/phraseview.png)
 
