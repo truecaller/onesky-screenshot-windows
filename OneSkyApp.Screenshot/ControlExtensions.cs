@@ -33,9 +33,7 @@ namespace OneSkyApp.Screenshot
                     yield return child as T;
 
                 foreach (var c in FindChildren(child, condition))
-                {
                     yield return c;
-                }
             }
         }
 
